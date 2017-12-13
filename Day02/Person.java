@@ -5,11 +5,12 @@ class Person {
 	int height;    // 키       (숫자)
 	String gender; // 성별     (문자)
 	int age;       // 나이     (숫자)
-	String name;   // 이름     (문자)
+	String 
+	name;   // 이름     (문자)
 	String family; // 가족     (문자)
 	
 	
-	//생성자 
+	//생성자 (클래스의 속성값을 초기화해주는 녀으석 constructor)
 	public Person(int headSize1, int height1, String gender1, int age1, String name1, String family1) {
 		
 		//this.가 객체라고 생각하면된다고해요; ㅎㅎ 뭘까요
@@ -26,7 +27,8 @@ class Person {
 	//매서드
 	
 	//무엇을 먹는다 (배부르다, 배고프다)
-	String eat(String food) {
+	String eat(String food)//괄호안에 목적어가 들어간다고 생각하믄됨. 무엇을 하는가. String eat의 String부분이 배부르다, 배고프다의 결과가 들어가는 부분이래
+									{
 		if (food.equals("빵")) {
 			return this.name + "은/는 배부르다.";
 		}
