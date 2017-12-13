@@ -16,12 +16,20 @@ class Student {
 		
 	}
 	
-	void study(){
-		System.out.println( this.name + "이(가) " + this.major + " 공부를 한다.");
+	//void study(){
+		//System.out.println( this.name + "이(가) " + this.major + " 공부를 한다.");
+	//}
+	
+	String study() {
+		return this.name+ "(이)가 " + this.major + " 공부를 한다.";
 	}
 	
-	void introduce() {
-		System.out.println( "저는 " + this.major + " " + this.grade + "학년 재학중인 " + this.name + "입니다.");
-	
+	String introduce() {
+		return "저는" + this.major + " " + this.grade + "학년" + " 재학중인 " + this.name + " 입니다.";
 	}
+	
+	//void introduce() {
+	//	System.out.println( "저는 " + this.major + " " + this.grade + "학년 재학중인 " + this.name + "입니다.");
+	
+	//}
 }

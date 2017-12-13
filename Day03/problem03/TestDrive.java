@@ -9,12 +9,18 @@ public class TestDrive {
 	Student C =
 				new Student(20091545, "최모씨", 24, "유아교육과", 3);
 	
-	A.study();
-	B.study();
-	C.study();
-	A.introduce();
-	B.introduce();
-	C.introduce();
+	//A.study();
+	//B.study();
+	//C.study();
+	//A.introduce();
+	//B.introduce();
+	//C.introduce();
+	
+	String ddd = A.study();
+	System.out.println(ddd);
+	
+	String dddd = B.introduce();
+	System.out.println(dddd);
 	
 	}
 
