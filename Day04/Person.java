@@ -15,14 +15,14 @@ class Person {
 	
 	}
 	//주민번호를 기준으로 해서 두 사람이 같은지를 비교
-	boolean equals(Person person) {
-		if (this.ssn == person.ssn) {
+	boolean equals(Person A) {
+		if (this.ssn == A.ssn) {
 				return true;
 			
 		}
 		return false;
 		
-		
+
 		
 	}
 

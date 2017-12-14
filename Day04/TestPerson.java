@@ -7,10 +7,10 @@ public class TestPerson {
 		
 		boolean isEqual = sanghoon.equals(gildong);
 		System.out.println(isEqual);
-		
-		if (isEqual) {
-			
-		}
+				
+		boolean isEqual02 = gildong.equals(sanghoon);  //this 가 길동
+		System.out.println(isEqual02);
 	}
+	
 	
 }
