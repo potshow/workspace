@@ -1,10 +1,23 @@
-public class Board {
+class Board {
 
-	public static void main(String[]args) {
-		
-		System.out.println(args[0] + " " + args[1] + " " + args[2] + " " + args[3] + " " + args[4]);
-		
+	int no;
+	String title;
+	String content;
+	String name;
+	String regDate;
+	
+	//생성자 (constructor)
+	
+		public Board(int no, String title, String content, String name, String regDate) {
+		this.no = no;
+		this.title = title;
+		this.content = content;
+		this.name = name;
+		this.regDate = regDate;
 	}
-
-
+	
+	String printBoard() {
+		return this.no + " " + this.title + " " + this.content + " " + this.name + " " + this.regDate;
+	
+	}
 }
