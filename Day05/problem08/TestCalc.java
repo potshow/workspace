@@ -5,17 +5,17 @@ public class TestCalc {
 		Calc A = new Calc ();
 		
 		
-		int result1 = A.add(1, 2);
-		System.out.println(result1);
+		int AA = A.add(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
+		System.out.println(AA);
 		
-		int result2 = A.sub(3, 2);
-		System.out.println(result2);
+		int VV = A.sub(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
+		System.out.println(VV);
 		
-		int result3 = A.mul(5, 5);
-		System.out.println(result3);
+		int DD = A.mul(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
+		System.out.println(DD);
 		
-		int result4 = A.div(10, 5);
-		System.out.println(result4);
+		int FF = A.div(Integer.parseInt(args[0]), Integer.parseInt(args[1]));
+		System.out.println(FF);
 	}
 
 }

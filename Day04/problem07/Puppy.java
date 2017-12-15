@@ -15,7 +15,7 @@ class Puppy {
 		
 	}
 	
-	boolean equals(Puppy as) {
+	public boolean equals(Puppy as) {
 		if (this.type == as.type) {
 				if (this.name == as.name)
 				return true;

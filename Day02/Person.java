@@ -1,6 +1,6 @@
 class Person {
 
-	//속성
+	//인스턴스변수
 	int headSize;  // 머리크기 (숫자)
 	int height;    // 키       (숫자)
 	String gender; // 성별     (문자)
