@@ -1,6 +1,5 @@
 class Puppy {
-
-
+	
 	String type;
 	String name;
 	int age;
@@ -13,14 +12,23 @@ class Puppy {
 		this.age = age;
 		this.gender = gender;
 		
+		
 	}
 	
 	boolean equals(Puppy as) {
 		if (this.type == as.type) {
-				if (this.name == as.name)
+			if (this.name == as.name) {
 				return true;
+			}
 		}
+		
 		return false;
 		
 	}
+
+	void hello() {
+		
+		System.out.println(this.name + " " + this.type + " " + this.age + "살 " + this.gender);
+	}
+	
 }
